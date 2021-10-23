@@ -97,11 +97,71 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-xl-6 col-lg-7">
-            <div class="section-title text-center mb-60">
-              <img src="assets/img/case-study/case-study-5.jpeg" width="400" class="mb-60 img-thumbnail" />
-              <h1>Jadwal Pembuatan Rekening Mahasiswa KIP-Kuliah Merdeka 2021 (Umum dan Regular)<img src="assets/img/vectors/title-shape.svg" alt="" class="title-shape center" /></h1>
-              <p class="mb-60">Telah di umumkan Jadwal pembuatan Buku Rekening Untuk Mahasiswa Baru Tahun 2021, bagi penerima KIP-Kuliah UM dan KIP-Kuliah Regular di Bank Mandiri.</p>
-              <a href="https://drive.google.com/folderview?id=1ltOJDh6fIL3pniZ9jgxBb6g63fAXhYH1" class="main-btn btn-hover border-btn">Download File</a>
+            <div class="section-title text-center mb-120">
+              <iframe
+                width="600"
+                height="300"
+                src="https://www.youtube.com/embed/TVl665Gr5P4"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <h1>
+                Program Studi S1 Akuntansi STIE Mandala Jember<img src="assets/img/vectors/title-shape.svg" alt="" class="title-shape center" />
+                <h4>Sumber: Youtube</h4>
+              </h1>
+            </div>
+            <div class="section-title text-center mb-120">
+              <iframe
+                width="600"
+                height="300"
+                src="https://www.youtube.com/embed/Sxcvgbdl7Ig"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <h1>
+                Bedah Buku Perpajakan di Indonesia<img src="assets/img/vectors/title-shape.svg" alt="" class="title-shape center" />
+                <h4>Sumber: Youtube</h4>
+              </h1>
+            </div>
+            <div class="section-title text-center mb-120">
+              <iframe
+                width="600"
+                height="300"
+                src="https://www.youtube.com/embed/cIJVif7WEEk"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <h1>
+                Bedah proposal PKM<img src="assets/img/vectors/title-shape.svg" alt="" class="title-shape center" />
+                <h4>Sumber: Youtube</h4>
+              </h1>
+            </div>
+            <div class="section-title text-center mb-120"></div>
+            <iframe
+              width="600"
+              height="300"
+              src="https://www.youtube.com/embed/WdJUzSXqR-s"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <h1>
+              Program Unggukan STIE Mandala Jember<img src="assets/img/vectors/title-shape.svg" alt="" class="title-shape center" />
+              <h4>Sumber: Youtube</h4>
+            </h1>
+            </div>
+            <div class="section-title text-center mb-120">
+              <iframe width="600" height="300" src="https://www.youtube.com/embed/tMD59F-nVEM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <h1>
+                Berita Terbaru KIP-Kuliah 2021<img src="assets/img/vectors/title-shape.svg" alt="" class="title-shape center" />
+                <h4>Sumber: Youtube</h4>
             </div>
           </div>
         </div>
@@ -240,26 +300,5 @@
     <script src="assets/js/count-up.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
-
-    <!-- ========================= Form start ========================= -->
-    <script>
-      const scriptURL = "https://script.google.com/macros/s/AKfycbwwkbCXjAnRnCbjYPn_UtdNUemt54CyGK7ytOrx1SNgYApZEZWUweVp7HXSoVk6L0ov/exec";
-      const form = document.forms["wpu-contact-form"];
-      const btnKirim = document.querySelector(".btn-kirim");
-      const btnLoading = document.querySelector(".btn-loading");
-      const myAlert = document.querySelector(".my-alert");
-
-      form.addEventListener("submit", (e) => {
-        e.preventDefault();
-
-        fetch(scriptURL, { method: "POST", body: new FormData(form) })
-          .then((response) => {
-            form.reset();
-            console.log("Success!", response);
-          })
-          .catch((error) => console.error("Error!", error.message));
-      });
-    </script>
-    <!-- ========================= Form end ========================= -->
   </body>
 </html>
